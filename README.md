@@ -1,14 +1,13 @@
-# Web3 Boilerplate
+# Holder Wallet
 
-This boilerplate is made of Hardhat for smart contract development. The front-end is made of NEXT.JS, Tailwind, and ethers.js
+Smart contract that receives ether or ERC20 and locks it for 5 years, and after period only the owner of the contract can widthdraw the funds.
 
-To use this template, follow these steps:
+Contract deployed to: ```0x44a88D23958d50c87a14E6b445bf30d6a4610916```
+
+To deploy this contract use 
 
 ```
-clone repo
-create .env from .env.example
-yarn
-yarn dev
+npx hardhat run scripts/deploy.js --network NETWORK_NAME
 ```
 
 To verify smart contract use: 
